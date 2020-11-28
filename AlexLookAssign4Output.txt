@@ -1,0 +1,59 @@
+
+ID     NAME                 STARTDATE
+------ -------------------- ---------
+S89012 Smith                20-SEP-19
+G56789 Gonzalez             14-JUL-19
+G45678 Gonzalez             13-JUL-19
+G34567 Gonzalez             12-JUL-19
+
+
+ID     NAME                
+------ --------------------
+S23456 Stone               
+N01234 Costales            
+P12345 Peterson            
+
+
+COUNT(NAME)   SUM(FEE)
+----------- ----------
+          5        328
+
+
+NAME                 ID   
+-------------------- -----
+Advanced Yoga        St980
+Intervals            In019
+Intervals            In029
+
+
+NAME                        AGE
+-------------------- ----------
+Gonzalez                     26
+Gonzalez                     15
+
+
+CL MIN(START
+-- ---------
+01 01-JAN-19
+02 12-JUL-19
+03 20-SEP-19
+04 01-JAN-20
+05 25-DEC-18
+07 31-DEC-18
+08 01-JAN-20
+
+7 rows selected. 
+
+
+MEMBER COUNT(CLASSID)
+------ --------------
+Y67891              4
+N01234              5
+
+
+ID CITY                 COUNT(CLUBID)   MIN(AGE)
+-- -------------------- ------------- ----------
+09 Kankakee                         0           
+01 Northbrook                       1         40
+03 Gurnee                           1         62
+02 Gurnee                           3         15

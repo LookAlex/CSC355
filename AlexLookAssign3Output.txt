@@ -1,0 +1,97 @@
+
+CCITY               
+--------------------
+Chicago
+Philadelphia
+
+
+INAME                        IPRICE
+------------------------ ----------
+The Skeleton Twins            24.99
+The Dark Knight               19.99
+Go East Young Man             11.99
+
+
+INAME                        IPRICE IDEPT       
+------------------------ ---------- ------------
+The Golden Gate               17.99 Books       
+Time Trap                     18.99 Books       
+The Dark Knight               19.99 DVDs        
+How the East Was Won          21.99 Books       
+The Skeleton Twins            24.99 DVDs        
+A Brief History of Time       28.99 Books       
+
+6 rows selected. 
+
+
+INAME                   
+------------------------
+East of Eden
+Go East Young Man
+How the East Was Won
+
+
+IDEPT        MIN(IPRICE)
+------------ -----------
+Books              17.99
+CDs                12.99
+DVDs               11.99
+
+
+CU MAX(RDATE
+-- ---------
+10 22-JUN-20
+21 01-JUL-19
+33 22-JUN-20
+48 15-NOV-19
+59 15-JUN-18
+67 15-NOV-19
+
+6 rows selected. 
+
+
+RDATE     SUM(RQUANTITY)
+--------- --------------
+22-JUN-20              1
+15-NOV-19              1
+01-MAR-20              2
+20-MAR-18              2
+22-JUN-20              2
+01-JUL-19              3
+15-NOV-19              3
+15-JUN-18              4
+
+8 rows selected. 
+
+
+RID   RDATE    
+----- ---------
+00003 01-JUL-19
+00006 15-NOV-19
+00008 01-MAR-20
+00009 22-JUN-20
+
+
+CI CNAME       
+-- ------------
+10 Monroe      
+21 Washington  
+33 Adams       
+48 Monroe      
+67 Jackson     
+
+
+RID   (RQUANTITY*IPRICE)
+----- ------------------
+00002              87.96
+00006              59.97
+00008              49.98
+00009              37.98
+00001              33.98
+00004              28.99
+00007              19.99
+00003              16.99
+00005              14.99
+00010              12.99
+
+10 rows selected. 

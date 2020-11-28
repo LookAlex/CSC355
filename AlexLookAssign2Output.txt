@@ -1,0 +1,79 @@
+Table CUSTOMER created.
+
+
+Table CRUISE created.
+
+
+Table TICKET created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+       CID CNAME                CPHONE 
+---------- -------------------- -------
+        16 Alex Look            8473035
+         3 Jack McKenzie        2242195
+        27 Joe Kochlefl         3122398
+        31 Torri Goss           8189483
+        13 Charlie Morgan       7732129
+
+
+      CRID PORTNAME                         CRLENGTH    CRPRICE
+---------- ------------------------------ ---------- ----------
+       312 Rio de Janiero                          8       9500
+       847 Dublin                                 12       7500
+       224 Palm Beach                             11       1000
+       773 San Diego                              14       8990
+       818 Mykonos                                 4       4990
+
+
+CUSTOMERID   CRUISEID TDATE    
+---------- ---------- ---------
+        16        312 03-JUN-09
+        16        773 05-JUL-17
+        27        818 10-MAR-16
+        13        224 17-NOV-07
+         3        818 19-DEC-18
